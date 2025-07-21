@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  height: 100vh;
+}
+.background {
+  background: url("https://www.unicusano.it/blog/wp-content/uploads/2024/08/I-10-quadri-piu-famosi-di-Van-Gogh-quali-sono-e-dove-vederli.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
+}
